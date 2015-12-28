@@ -1,0 +1,28 @@
+/*------------------------------------------------
+	Navigation Config.
+--------------------------------------------------*/
+.green:hover {
+	color: #72CF7C
+}
+.remove-list {
+	margin: 0;
+	padding: 0;
+}
+.remove-list li {
+	list-style-type: none;
+}
+.nav-gray {
+	background-color: #eee;
+}
+.padding-large {
+	padding: 5px 10px;
+}
+.nav-gray ul li a {
+	font-size: 1.5em;
+}
+li:first-child {
+	font-size: 1.3em;
+}
+.edited-large-font-size {
+	font-size: 5em;
+}

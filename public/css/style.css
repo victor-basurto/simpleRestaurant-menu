@@ -1,0 +1,72 @@
+/*------------------------------------------------
+	General Config.
+--------------------------------------------------*/
+body {
+	background: #72CF7C;
+	font-family: 'Lato', sans-serif;
+}
+img {
+	max-width: 100%;
+}
+a, .menu-title {
+	/*color: #00887C;*/
+	/*color: #278CB2;*/
+	color: #009FFF;
+}
+a:link {
+	text-decoration: none;
+}
+a:hover {
+	color: #009FFF;
+}
+.green {
+	color: #72CF7C;
+}
+.title-font {
+	font-size: 3em;
+}
+.edited-font-size {
+	font-size: 4em;
+}
+/*------------------------------------------------
+	first-presentation block
+--------------------------------------------------*/
+.remove-up-space {
+	margin-top: 100px;
+}
+.remove-float {
+	float: none;
+}
+.pacific-font {
+	font-family: 'Pacifico', cursive;
+	/*font-size: 3.5em;*/
+}
+.anchor-margin-right {
+	margin-right: 2em;
+}
+/*------------------------------------------------
+	Effects
+--------------------------------------------------*/
+.ani-extended {
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	animation-delay: 1s;
+}
+.ani-extended2 {
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	animation-delay: 2s;
+}
+/* index.jade to show products */
+.add-margin {
+	margin-top: 1em;
+}
+.lato-font {
+	font-family: 'Lato', sans-serif;
+}
+.small-font {
+	font-size: 1.3em;
+}
+.add-inline {
+	display: inline-block;
+}

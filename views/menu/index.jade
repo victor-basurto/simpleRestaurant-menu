@@ -1,0 +1,9 @@
+extends ../layout.jade
+block content
+	h2(class="pacific-font dited-font-size menu-title") Menu
+	p Quality Products served in your table
+	each product in products
+		div(class="col-md-4 col-sm-6 col-xs-12 add-inline")
+			h3(class="pacific-font")=product.title
+			img(src="#{ product.imgeUrl }", class="col-xs-7 col-md-4 remove-float")
+			p(class="add-margin") #[small(class="lato-font small-font") #{ product.price } USD]
